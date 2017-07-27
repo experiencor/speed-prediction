@@ -14,7 +14,7 @@ This is the results on a random dashcam camera:
 
 [1] Learning Spatiotemporal Features with 3D Convolutional Networks (https://arxiv.org/abs/1412.0767)
 
-[2] Unsupervised Learning of Depth and Ego-Motion from Video (https://arxiv.org/abs/1704.07813)
+[2] Unsupervised Learning of Video Representations using LSTMs (https://arxiv.org/abs/1502.04681)
 
 Take a look at a similar attempt at https://github.com/JonathanCMitchell/speedChallenge
 

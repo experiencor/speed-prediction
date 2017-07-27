@@ -4,11 +4,11 @@ Another advantage of 3D Convolutional Network for speed predicttion from dashcam
 
 This is the results on the validation footage:
 
-<video demo>
+<a href="https://www.youtube.com/watch?v=384IEndkPYc" rel="some text"><p align="center">![Foo](https://j.gifs.com/O7mjjp.gif)</p></a>
 
 This is the results on a random dashcam camera:
 
-<video demo>
+<a href="https://www.youtube.com/watch?v=67a-iTXKlKY" rel="some text"><p align="center">![Foo](https://j.gifs.com/WnxrrJ.gif)</p></a>
 
 [1] Learning Spatiotemporal Features with 3D Convolutional Networks (https://arxiv.org/abs/1412.0767)
 [2] Unsupervised Learning of Depth and Ego-Motion from Video (https://arxiv.org/abs/1704.07813)
@@ -16,15 +16,23 @@ Take a look at a similar attempt at https://github.com/JonathanCMitchell/speedCh
 
 # Information
 
-<network architecture>
+Network architecture
 
-<training and validation losses>
+<p align="center">
+<img width="400" src="model.png"/>
+</p>
+
+Validation losses
+
+<p align="center">
+<img width="400" src="val_loss.png"/>
+</p>
 
 # Usage
 
 1. Download the weights pretrained on the Sports-1M dataset [https://goo.gl/tsEUo2]
-1. Download the training data from comma.ai website [https://goo.gl/ERi7Uh]
-2. Follow the steps in "Dashcam Speed - C3D.ipynb" for a walk-through of the training and testing of the network
+2. Download the training data from comma.ai website [https://goo.gl/ERi7Uh]
+3. Follow the steps in "Dashcam Speed - C3D.ipynb" for a walk-through of the training and testing of the network
 
 # Todo list
 

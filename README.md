@@ -1,6 +1,4 @@
-This is a proposal to solve the speed prediction challenge posted by https://comma.ai/. We use 3D Convolutional Network [1] to predict car speed using dashcam footage. 3D Convolutional Network seems to be the perfect solution for this problem as the MSE on the validation dataset reduces to 4.8 after the 4 epoches. LSTM for video understanding [2] gets stuck at 70 MSE after 8 epoches. The trained network is good enough to make reasonable prediction on arbitrary footages.
-
-Another advantage of 3D Convolutional Network for speed predicttion from dashcam is that it works in chunks of frames. This is especially suitable for real-time speed prediction as we don't usually want to know the speed at every frame.
+This is a proposal to solve the speed prediction challenge posted by https://comma.ai/. We use 3D Convolutional Network [1] to predict car speed using dashcam footage. 3D Convolutional Network seems to be the perfect solution for this problem as the MSE on the validation dataset reduces to 4.8 after 4 epoches while LSTM for video understanding [2] gets stuck at 70 MSE after 8 epoches. The trained network is good enough to make reasonable prediction on arbitrary footages.
 
 **The final mean squared error on validation set is 3.1!**
 

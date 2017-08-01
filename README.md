@@ -1,14 +1,16 @@
-This is a proposal to solve the speed prediction challenge posted by https://comma.ai/. We use 3D Convolutional Network [1] to predict car speed using dashcam footage. 3D Convolutional Network seems to be the perfect solution for this problem as the MSE on the validation dataset reduces to 4.8 after 4 epoches while LSTM for video understanding [2] gets stuck at 70 MSE after 8 epoches. The trained network is good enough to make reasonable prediction on arbitrary footages.
+This is a proposal to solve the speed prediction challenge posted by https://comma.ai/. 3D Convolutional Network [1] is used to predict car speed using dashcam footage. The trained network is good enough to make reasonable prediction on arbitrary footages.
 
 **The final mean squared error on validation set is 3.1!**
 
-This is the results on the validation footage:
+The result on comma.ai validation footage (MSE of 3.1):
 
 <a href="https://www.youtube.com/watch?v=384IEndkPYc" rel="some text"><p align="center">![Foo](https://j.gifs.com/O7mjjp.gif)</p></a>
 
-This is the results on a random dashcam camera:
+The result on 28 minute udacity footage (MSE of 23.28):
 
 <a href="https://www.youtube.com/watch?v=67a-iTXKlKY" rel="some text"><p align="center">![Foo](https://j.gifs.com/WnxrrJ.gif)</p></a>
+
+Note that this is the result when the network is purely trained on comma.ai data and tested on udacity data with completely different lighting conditions and different scene dynamics. Most of the error on the udacity footage occurs at the turns, which is limitedly seen in comma.ai dataset.
 
 [1] Learning Spatiotemporal Features with 3D Convolutional Networks (https://arxiv.org/abs/1412.0767)
 

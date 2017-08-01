@@ -8,7 +8,7 @@ The result on comma.ai validation footage (MSE of 3.1):
 
 The result on 28 minute udacity footage (MSE of 23.28):
 
-<a href="https://www.youtube.com/watch?v=67a-iTXKlKY" rel="some text"><p align="center">![Foo](https://j.gifs.com/WnxrrJ.gif)</p></a>
+<a href="https://youtu.be/QMaUF7UDGu0" rel="some text"><p align="center">![Foo](https://j.gifs.com/JZOZrl.gif)</p></a>
 
 Note that this is the result when the network is purely trained on comma.ai data and tested on udacity data with completely different lighting conditions and different scene dynamics. Most of the error on the udacity footage occurs at the turns, which is limitedly seen in comma.ai dataset.
 
